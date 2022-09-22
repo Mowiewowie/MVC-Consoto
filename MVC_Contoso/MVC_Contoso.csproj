@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\ILinux.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Data\NewFile.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Models\NewFile.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Home\SessionDetails.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Home\SeatReservation.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Home\SeatsUnavailable.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Home\SessionDetails.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Home\SeatReservation.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Home\SeatsUnavailable.cshtml" />
+  </ItemGroup>
+
+</Project>

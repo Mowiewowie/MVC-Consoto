@@ -1,0 +1,15 @@
+@model Sessions
+@{
+    ViewData["Title"] = "Sessions";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Review different sessions</p>
+
+<div class="list-group">
+    @foreach (var session in Model.sessionsList)
+    {
+        <a class="list-group-item list-group-item-action list-group-item-primary" href="./SessionDetails/@session.SessionId">@session.SessionName</a>
+    }
+
+</div>
