@@ -1,0 +1,23 @@
+﻿[
+
+  {
+    "SessionId": 1,
+    "SessionName": "Linux",
+    "Speaker": "Anu",
+    "SeatsAvailable": 10
+  },
+
+  {
+    "SessionId": 2,
+    "SessionName": "Windows",
+    "Speaker": "Alex",
+    "SeatsAvailable": 10
+  },
+  {
+    "SessionId": 3,
+    "SessionName": "Mac",
+    "Speaker": "Trevon",
+    "SeatsAvailable": 10
+  }
+
+]

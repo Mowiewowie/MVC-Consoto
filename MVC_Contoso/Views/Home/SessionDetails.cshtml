@@ -1,0 +1,18 @@
+﻿@model Session
+
+@{
+    ViewData["Title"] = "Session Details";
+}
+
+<h2>Here is the session details for @Model.SessionName</h2>
+<p>
+    The session ID is @Model.SessionId
+</p>
+<p>
+    The speaker is @Model.Speaker
+</p>
+<p>
+    Seats available: @Model.SeatsAvailable
+</p>
+
+<button onclick="window.location='../SeatReservation/@Model.SessionId'">Reserve Seat</button>
